@@ -15,22 +15,22 @@ const Header = () => {
                         <div class="col-7 d-none d-md-block">
                             <div class="box-navigation">
                                 <ul class="nav-menu-main">
-                                    <li class="menu-item"><a href="#workScroll" class="item-link link text-caption"><span>01
-                                                /</span>WORKS</a></li>
-                                    <li class="menu-item"><a href="#serviceScroll" class="item-link link text-caption"><span>02
-                                                /</span>SERVICES</a>
+                                    <li class="menu-item"><a href="#workScroll" class="item-link link text-caption"><span>
+                                                </span>WORKS</a></li>
+                                    <li class="menu-item"><a href="#serviceScroll" class="item-link link text-caption"><span>
+                                                </span>SERVICES</a>
                                     </li>
-                                    <li class="menu-item"><a href="#aboutScroll" class="item-link link text-caption"><span>03
-                                                /</span>ABOUT</a></li>
-                                    <li class="menu-item"><a href="#contactScroll" class="item-link link text-caption"><span>04
-                                                /</span>CONTACT</a>
+                                    <li class="menu-item"><a href="#aboutScroll" class="item-link link text-caption"><span>
+                                                </span>ABOUT</a></li>
+                                    <li class="menu-item"><a href="#contactScroll" class="item-link link text-caption"><span>
+                                                </span>CONTACT</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-3 col-md-2 d-none d-sm-block">
                             <div class="header-contact">
-                                <a href="mailto:davies@gmail.com" class="link text-caption">DAVIES@GMAIL.COM</a>
+                                <a href="mailto:davies@gmail.com" class="link text-caption">Priyanshukumawatdevgmail.com</a>
                                 <p class="text-caption">
                                     CUP <span class="clock"></span>
                                 </p>

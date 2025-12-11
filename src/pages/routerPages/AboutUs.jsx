@@ -13,7 +13,7 @@ const AboutUs = () => {
                     <div class="col-lg-5">
                         <div class="col-left mb-lg-0">
                             <div class="davies-video">
-                                <video class="video" muted="" autoplay="" loop="" playsinline="">
+                                <video class="video" muted="" autoplay="" loop="" playsInline="">
                                     <source src="assets/images/video/davies-video.mp4" type="video/mp4"/>
                                 </video>
                                 <div class="overlay v1"></div>
