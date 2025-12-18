@@ -8,6 +8,14 @@ import SelectWork from "./pages/routerPages/SelectWork";
 import Features from "./pages/routerPages/Features";
 import Service from "./pages/routerPages/Service";
 import Proccess from "./pages/routerPages/Proccess";
+import TechStack from "./pages/routerPages/TechStack";
+import Brand from "./pages/routerPages/Brand";
+import Award from "./pages/routerPages/Award";
+import Testimonial from "./pages/routerPages/Testimonial";
+import Pricing from "./pages/routerPages/Pricing";
+import Faq from "./pages/routerPages/Faq";
+import Footer from "./components/shared/Footer";
+import Cta from "./pages/routerPages/Cta";
 
 
 function App() {
@@ -69,6 +77,15 @@ function App() {
 <Features/>
 <Service/>
 <Proccess/>
+<AboutUs/>
+<TechStack/>
+<Brand/>
+<Award/>
+<Testimonial/>
+<Pricing/>
+<Faq/>
+<Cta/>
+<Footer/>
 
 </main>
     

@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-3">
-      <Link className="navbar-brand" to="/">MyApp</Link>
+      <NavLink className="navbar-brand" to="/">MyApp</NavLink>
 
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
         <span className="navbar-toggler-icon"></span>
@@ -11,9 +11,9 @@ export default function Navbar() {
 
       <div className="collapse navbar-collapse" id="menu">
         <ul className="navbar-nav ms-auto">
-          <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
-          <li className="nav-item"><Link className="nav-link" to="/about">About</Link></li>
-          <li className="nav-item"><Link className="nav-link" to="/services">Services</Link></li>
+          <li className="nav-item"><NavLink className="nav-link" to="/">Home</NavLink></li>
+          <li className="nav-item"><NavLink className="nav-link" to="/about">About</NavLink></li>
+          <li className="nav-item"><NavLink className="nav-link" to="/services">Services</NavLink></li>
         </ul>
       </div>
     </nav>
